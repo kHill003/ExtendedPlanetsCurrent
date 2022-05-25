@@ -27,6 +27,9 @@ public class Astronaughts {
         myValues = new ArrayList<>();
         myValues.add("Tony");
         myValues.add("Keith");
+        myValues.add("Estrid");
+        myValues.add("Jon");
+        myValues.add("Ellie");
         hm.put("key1", myValues );
 
 
