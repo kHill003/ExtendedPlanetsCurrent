@@ -1,5 +1,6 @@
 //package Unused;
-//
+////There was a class to go with this- that was a form of array list hash table.  I meant to add it to this for
+//a test but changed ideas as it was a rabbit hole'
 //import Astronaughts.Astronaughts;
 //import unused.ListMultimap;
 //import org.junit.Before;
