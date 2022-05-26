@@ -8,6 +8,9 @@ public class Runner {
         mainGameManager =new MainGameManager();
 
         System.out.println(mainGameManager.outputCaptain());
+        System.out.println(mainGameManager.outputCoPilot());
+        System.out.println(mainGameManager.outputMedic());
+        System.out.println(mainGameManager.outputShip());
 
     }
 }

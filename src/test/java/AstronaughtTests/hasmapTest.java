@@ -1,6 +1,6 @@
 package AstronaughtTests;
 
-import Astronaughts.Astronaughts;
+import Astronaughts.AstronaughtsAndAllHashMaps;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,11 +11,11 @@ import static org.junit.Assert.assertEquals;
 
 public class hasmapTest {
 
-    Astronaughts an;
+    AstronaughtsAndAllHashMaps an;
 
     @Before
     public void before(){
-        an = new Astronaughts();
+        an = new AstronaughtsAndAllHashMaps();
         an.createHashMap();
     }
 

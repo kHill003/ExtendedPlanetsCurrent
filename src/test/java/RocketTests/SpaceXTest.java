@@ -12,7 +12,7 @@ public class SpaceXTest {
     SpaceX spaceX;
   @Before
    public void before() {
-    spaceX = new SpaceX("SpaceX", 5);
+    spaceX = new SpaceX("SpaceX", 3, 200);
 
     }
     @Test
@@ -33,4 +33,15 @@ public void canGiveRocketMessage() {
 //        assertEquals("I am a dog", spaceX.fly());
 //
 //    }
-}
+    @Test
+    public void hasCapacity() {
+        assertEquals(3, spaceX.getCapacity());
+    }
+
+    @Test
+    public void hasFuel() {
+        assertEquals(200, spaceX.getFuelAvailable());
+    }
+
+    }
+
